@@ -12,8 +12,7 @@ RUN apt-get -y install oracle-java8-installer
 
 # Download A Java8 Compatible Version Of Sling (Custom Build)
 CMD mkdir -p /opt/apache-sling
-ADD https://github.com/PlasmaTrout/apache-sling-java8/raw/master/builds/org.apache.sling.launchpad-7-SNAPSHOT-standalone
-.jar /opt/apache-sling/
+ADD https://github.com/PlasmaTrout/apache-sling-java8/raw/master/builds/org.apache.sling.launchpad-7-SNAPSHOT-standalone.jar /opt/apache-sling/
 
 # Exposing only 8080 and 8000
 EXPOSE 8080
