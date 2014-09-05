@@ -3,7 +3,7 @@ apache-sling-java8
 
 This repository profile resources to set up a docker base apache-sling development image on ubuntu. To run it all you need is to:
 
-    docker run -i -t -p 8080:8080 plasmatrout/apache-sling
+    docker run -i -t -p 8080:8080 plasmatrout/apache-sling-java8
 
 The system console can be found at:
 
