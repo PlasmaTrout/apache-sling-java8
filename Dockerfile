@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Jeff Downing <jeff.downing@latchd.com>
+MAINTAINER ProgrammerVsWorld <programmervsworld@gmail.com>
 
 # Getting Java 8 Setup and Ready
 ENV DEBIAN_FRONTEND noninteractive
