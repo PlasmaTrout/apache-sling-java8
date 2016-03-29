@@ -9,7 +9,7 @@ To get it up and running, from your docker console type:
 
 The system console can be found at:
 
-at [http://localhost:8080/system/console][1] on Linux or [http://192.168.59.103:8080/system/console][2] on windows
+at [http://localhost:8080/system/console][1] on Linux or http://(you dockerip):8080/system/console on windows. *FYI: Mine ended up 192.168.99.100 last time I pulled it.*
 
 The username and password are left default for the console as *admin/admin*
 
