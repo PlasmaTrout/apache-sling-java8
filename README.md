@@ -1,5 +1,6 @@
 apache-sling-java8
 ==================
+[![](https://images.microbadger.com/badges/image/plasmatrout/apache-sling-java8.svg)](https://microbadger.com/images/plasmatrout/apache-sling-java8 "Get your own image badge on microbadger.com")
 
 This project provides a stand alone Apache Sling image on Ubuntu. The image utilizes Java 8 for run-time and Apache Sling was recompiled for compatibility.
 
