@@ -21,6 +21,7 @@ ADD http://www-us.apache.org/dist//sling/org.apache.sling.launchpad-8.jar /opt/a
 # Exposing only 8080 and 8000
 EXPOSE 8080
 EXPOSE 30303
+EXPOSE 59239
 
 # Run command
-CMD cd /opt/apache-sling && java -Xmx384M -agentlib:jdwp=transport=dt_socket,address=30303,server=y,suspend=n -Dsling.run.modes=oak,oak_mongo -jar org.apache.sling.launchpad-8.jar
+CMD cd /opt/apache-sling && java -Xmx384M -agentlib:jdwp=transport=dt_socket,address=30303,server=y,suspend=n -Dsling.run.modes=oak,oak_mongo -jar org.apache.sling.launchpad-8.jar -j 59239 start
